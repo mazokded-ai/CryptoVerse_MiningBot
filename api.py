@@ -9,7 +9,6 @@ from fastapi.staticfiles import StaticFiles
 app = FastAPI(title="CryptoVerse Mining")
 
 BASE_DIR = Path(__file__).resolve().parent
-WEB_DIR = BASE_DIR / "web"
 DB_PATH = BASE_DIR / "mining.db"
 
 def init_db():
